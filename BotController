@@ -45,10 +45,10 @@ if LocalPLR.Name ~= Username then
 
     end
 
-    chat("ControlBotZ Running!")
+    chat("Vortex Alt Control Bot Loaded | Do cmds to view commands")
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Thank You",
-        Text = "Thank you for using ControlBotZ!",
+        Text = "Thank you for using Vortex!",
         Time = 6
     })
 
@@ -356,7 +356,7 @@ if LocalPLR.Name ~= Username then
         -- PRINTCMDS:
         if msg:sub(1, 10) == Prefix .. "printcmds" then
 
-            print("\n---------- CONTROLBOTZ CMDS ----------\n" .. request({ Url = "https://raw.githubusercontent.com/sixpennyfox4/rbx/refs/heads/main/ControlBotZ%20Cmds.txt", Method = "GET" }).Body)
+            print("\n---------- VORTEX CMDS ----------\n" .. request({ Url = "https://raw.githubusercontent.com/sixpennyfox4/rbx/refs/heads/main/ControlBotZ%20Cmds.txt", Method = "GET" }).Body)
             if index == 1 then
                 chat("Printed commands to the console!")
             end
@@ -623,7 +623,7 @@ if LocalPLR.Name ~= Username then
 
                 lpr.CFrame = CFrame.new(newPosition, player.Position)
 
-                chat("📸CAUGHT IN 4K📸")
+                chat("📸CAUGHT IN 4K LOOKING AT LITTLE KIDS📸")
 
             end
         end
@@ -846,7 +846,7 @@ if LocalPLR.Name ~= Username then
                 chat("Launching In: 1")
                 wait(1)
 
-                chat("Lifting Up!")
+                chat("TO THE MOON I GO")
                 wait(0.5)
             else
                 wait()
@@ -1591,14 +1591,14 @@ if LocalPLR.Name ~= Username then
                 if latestVersion ~= "1.1.3" then
                     chat("Running V1.1.3 (old)")
                 else
-                    chat("Running V1.1.3")
+                    chat("Running V1.1.8")
                 end
             end
 
         end
 
         -- RIZZ:
-        if msg:sub(1, 4) == Prefix .. "riz" then
+        if msg:sub(1, 4) == Prefix .. "rizz" then
 
             local rizzlines = {
                 "Can I be your snowflake? I promise to never melt away from your heart.",
@@ -1815,7 +1815,7 @@ if LocalPLR.Name ~= Username then
 
                     end
                 else
-                    chat("Bot needs to be r6!")
+                    chat("Bot needs to be R6!")
                 end
             end
 
@@ -2009,7 +2009,7 @@ if LocalPLR.Name ~= Username then
         if msg == Prefix .. "credits" then
 
             if index == 1 then
-                chat("This is a open source controlbot script made by sixpenny_fox4. Ḍ̲ị̲ṣ̲с̲ọ̲ṛ̲ḍ̲: Ẉ̲ɡ̲Ạ̲с̲Ṭ̲Ẓ̲ẓ̲Ṣ̲ṭ̲Ḅ̲")
+                chat("Vortex Alt Control Bot Script Made By GTX and lobotomyDetected")
             end
 
         end
@@ -2088,7 +2088,7 @@ if LocalPLR.Name ~= Username then
 
                     chat("Privacy Mode Has Been Disabled On Bot " .. index .. "!")
                 elseif switch == "enable" then
-                    showDefaultGui(true, "ControlBotZ Running (privacy mode enabled)")
+                    showDefaultGui(true, "VORTEX Running (privacy mode enabled)")
 
                     chat("Privacy Mode Has Been Enabled On Bot " .. index .. "!")
                 end
@@ -2159,7 +2159,7 @@ if LocalPLR.Name ~= Username then
                     chat("spin (number)/unspin, lineup (direction), 3drender (enable/disable), dance (emote), fling (username)/unfling, follow (username)/unfollow, lookat (username)/unlookat, stack (username)/unstack, quit")
 
                     wait(0.2)
-                    chat("goto (username), carpet (username)/uncarpet, linefollow (username)/unlinefollow, riz (username), facebang (username) (speed)/unfbang, announce (message), rocket (height), antibang, 2orbit (username)")
+                    chat("goto (username), carpet (username)/uncarpet, linefollow (username)/unlinefollow, rizz (username), facebang (username) (speed)/unfbang, announce (message), rocket (height), antibang, 2orbit (username)")
                 elseif page == "2" then
                     chat("surround (username) (spacing), partsrain (username) (height)/unpartsrain, hug (username)/unhug, worm (username)/unworm, index, logchat (enable/disable), 4k (username), whitelist+ (username)/")
                     wait(0.2)
