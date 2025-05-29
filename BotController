@@ -1598,7 +1598,7 @@ if LocalPLR.Name ~= Username then
         end
 
         -- RIZZ:
-        if msg:sub(1, 4) == Prefix .. "rizz" then
+        if msg:sub(1, 4) == Prefix .. "riz" then
 
             local rizzlines = {
                 "Can I be your snowflake? I promise to never melt away from your heart.",
@@ -2009,7 +2009,7 @@ if LocalPLR.Name ~= Username then
         if msg == Prefix .. "credits" then
 
             if index == 1 then
-                chat("Vortex Alt Control Bot Script Made By GTX and lobotomyDetected")
+                chat("Vortex Alt Control Bot Script Made By GTX and mebz")
             end
 
         end
